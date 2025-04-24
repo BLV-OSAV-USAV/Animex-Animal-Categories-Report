@@ -1,0 +1,11 @@
+cff-version: 1.0.0
+message: "If you use this code, please cite it as below."
+authors:
+- family-names: "Berce"
+  given-names: "Cristian"
+  orcid: "0000-0002-5073-8172"
+title: "Validation Check of the Annual Animal Experimentation Statistics"
+version: v1.2
+doi: 
+date-released: 2024-03-26
+url: "https://github.com/BLV-OSAV-USAV/animex-ch-AC-Reports-Validation-Check/"
