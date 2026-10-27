@@ -54,10 +54,10 @@ Such issues require careful expert review by the reporting institution and, wher
 
 * Validates AC report chapter logic using the following plausibility / validation rules:
 * Rule 1: 9.2 needs to be greater than 9.4.1
-* Rule 2: 10.1 must equal the sum of 9.1.1 + 9.1.2 + 9.1.3 + 9.1.4 OR 10.1 must equal to the sum of 9.1.1 + 9.1.2 + 9.1.3 + 9.1.4 + 9.4.2  OR 10.1 must equal to the sum of 9.4.2
+* Rule 2: 10.1 must equal the sum of 9.1.1 + 9.1.2 + 9.1.3 + 9.1.4 + 9.4.2
 * Rule 3 11.1 + 11.2 + 11.3 + 11.4 must equal to the sum of 9.2 + 9.1.1 + 9.1.2 + 9.1.3 + 9.1.4
 * Rule 4: 12.1 + 12.2.1 + 12.2.2 + 12.2.3 + 12.2.4 + 12.3 must equal to the sum of 10.1 + 10.2 + 10.3 + 10.4
-* Rule 5: If 9.4.1 is bigger than 0 then 9.2 must be greater than the sum of 10.1 to 10.4
+* Rule 5: If 9.4.1 is bigger than 0 then 9.1.1 + 9.1.2 + 9.1.3 + 9.1.4 + 9.2 must be greater than the sum of 10.1 + 10.2 + 10.3 + 10.4
 
 
 
@@ -91,9 +91,9 @@ Such issues require careful expert review by the reporting institution and, wher
      Validation\_Report.xlsx
 
    This file will be saved in the path defined in output\_file (also editable).
-   output\_file <- "C:/Rtests/statistics/Validation\_Report.xlsx" # <-- alsoupdate this to your folder
+output\_file <- "C:/Rtests/statistics/Validation\_Report.xlsx" # <-- alsoupdate this to your folder
 
-   
+
 
    ## Output
 
